@@ -28,5 +28,8 @@ We incorporate automation and smart solutions into our daily routines to streaml
 
 ![circuit (1)](https://github.com/abhiramiselvan/Water-level-indicator/assets/144225835/311c7b2f-fe47-4be4-8c03-70df46191205)
 
+### Working Model:
+https://github.com/abhiramiselvan/Water-level-indicator/assets/144225835/66d602aa-47ec-440f-871a-25d79f0960b8
+
 
 
