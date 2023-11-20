@@ -13,6 +13,18 @@ We incorporate automation and smart solutions into our daily routines to streaml
 - Breadboard
 - Jumper wires - As we require
 
+### 555 TIMER PIN DIAGRAM
+Before using the 555 timer IC, we should know about the details about that. 
+- #### Pin 1 –  GND  - It is a Ground pin whose connects the 555 timer to the negative (0v) supply.
+- #### Pin 2 – TRI - It is Trigger pin, this pin “sets” the internal Flip-flop when the voltage drops below 1/3Vcc causing the output to switch from a “LOW” to a “HIGH” state.
+- #### Pin 3 – OUT - It is Output pin, that can drive any TTL circuit and is capable of sourcing or sinking up to 200mA of current at an output voltage equal to approximately Vcc – - 1.5V so small speakers, LEDs or motors can be connected directly to the output.
+- #### Pin 4 – RESET -  Reset, the function of this pin to reset the Flip-flop controlling the state of the output, pin 3.
+- #### Pin 5 – CV - Control Voltage, It control timing of the 555 by overriding the 2/3Vcc level of the voltage divider network. By applying a voltage to this pin the width of the - - output signal can be varied independently of the RC timing network. When not used it is connected to ground via a 10nF capacitor to eliminate any noise.
+- #### Pin 6 – TH -Threshold, The positive input to comparator No 2. This pin is used to reset the Flip-flop when the voltage applied to it exceeds 2/3Vcc causing the output to switch from “HIGH” to “LOW” state. This pin connects directly to the RC timing circuit.
+- #### Pin 7 – DIS - Discharge, The discharge pin is connected directly to the Collector of an internal NPN transistor which is used to “discharge” the timing capacitor to ground when the output at pin 3 switches “LOW”.
+- #### Pin 8 – VCC - Supply +Vcc, This is the power supply pin and for general purpose TTL 555 timers are between 4.5V and 15V.
+
+
 
 ### Interfacing the components:
 - Connect one leg of the float switch to the battery’s positive voltage (Vcc).
