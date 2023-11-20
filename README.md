@@ -26,7 +26,7 @@ We incorporate automation and smart solutions into our daily routines to streaml
 - Connect the threshold (TH) pin to the trigger (TRIG) pin.
 - Connect IC’s ground to battery’s ground and IC’s VCC to battery’s positive.
 
-
+![circuit (1)](https://github.com/abhiramiselvan/Water-level-indicator/assets/144225835/311c7b2f-fe47-4be4-8c03-70df46191205)
 
 
 
